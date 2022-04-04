@@ -20,11 +20,17 @@
     <projectState path="$PROJECT_DIR$/discovery">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/gateway">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/demo1">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/discovery">
           <activation />
         </task>
         <projects_view>
@@ -33,6 +39,25 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="demo1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="discovery" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gateway" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gateway" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gateway" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -44,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,7 +119,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.demo1 [clean]">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="demo1 [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -172,9 +197,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="discovery.main" />
+    <configuration name="DiscoveryApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.discovery.DiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,7 +231,9 @@
       <workItem from="1649033422718" duration="2233000" />
       <workItem from="1649041148159" duration="1145000" />
       <workItem from="1649042320661" duration="982000" />
-      <workItem from="1649043385284" duration="1440000" />
+      <workItem from="1649043385284" duration="2094000" />
+      <workItem from="1649045754600" duration="5464000" />
+      <workItem from="1649052846593" duration="5793000" />
     </task>
     <servers />
   </component>

@@ -24,18 +24,17 @@ fun main(args: Array<String>) {
 }
 
 @RestController
-class TestController(private val restTemplate: RestTemplate) {
+class TestController(val demo2Service: Demo2Service) {
 
     @GetMapping
     fun hello(): String {
-        val responseFromDemo2 = restTemplate.getForObject("http://demo2", String::class.java)
-        return "Helllo from Demo1 $responseFromDemo2"
+        return "Helllo from Demo1 ${demo2Service.hello()}"
     }
 
     @GetMapping("message")
     fun message(id: Long): MessageDto{
-        val responseFromDemo2 = restTemplate.postForObject("http://demo2/message/${id}", null, MessageDemo2Dto::class.java)
+        val responseFromDemo2 = demo2Service.message(id);
         // comment test
-        return MessageDto(responseFromDemo2!!.id, responseFromDemo2!!.message, Date().time)
+        return MessageDto(responseFromDemo2.id, responseFromDemo2.message, Date().time)
     }
 }

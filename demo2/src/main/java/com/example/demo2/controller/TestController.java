@@ -12,14 +12,14 @@ public class TestController {
 
     @GetMapping
     public ResponseEntity hello() {
-        return ResponseEntity.ok("Hello from Demo2");
+        return ResponseEntity.ok("Hello from DEMO2");
     }
 
     @PostMapping("message/{id}")
     public ResponseEntity message(@PathVariable Long id){
         MessageDto dto = new MessageDto();
         dto.setId(id);
-        dto.setMessage("Message from Demo2");
+        dto.setMessage("Message from DEMO2");
 
         return ResponseEntity.ok(dto);
     }

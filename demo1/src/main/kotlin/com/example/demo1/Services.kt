@@ -1,12 +1,17 @@
 package com.example.demo1
 
 import org.springframework.cloud.openfeign.FeignClient
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.PathVariable
+import org.springframework.web.bind.annotation.PostMapping
 
-@FeignClient
+@FeignClient("demo2")
 interface Demo2Service {
 
+    @GetMapping
     fun hello(): String
 
-    fun message(id: Long) : MessageDemo2Dto
+    @PostMapping("message/{id}")
+    fun message(@PathVariable id: Long) : MessageDemo2Dto
 
 }

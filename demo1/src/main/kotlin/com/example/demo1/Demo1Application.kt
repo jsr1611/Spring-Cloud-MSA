@@ -35,7 +35,7 @@ class TestController(private val restTemplate: RestTemplate) {
     @GetMapping("message")
     fun message(id: Long): MessageDto{
         val responseFromDemo2 = restTemplate.postForObject("http://demo2/message/${id}", null, MessageDemo2Dto::class.java)
-
+        // comment test
         return MessageDto(responseFromDemo2!!.id, responseFromDemo2!!.message, Date().time)
     }
 }

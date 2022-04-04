@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db86363f-d16a-4c5f-8f86-cdc2819d05f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/demo2.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/demo2.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/config/CloudConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/src/main/kotlin/com/example/demo1/Demo1Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/kotlin/com/example/demo1/Demo1Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/src/main/kotlin/com/example/demo1/Services.kt" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/kotlin/com/example/demo1/Services.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo2/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo2/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="db86363f-d16a-4c5f-8f86-cdc2819d05f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +233,7 @@
       <workItem from="1649042320661" duration="982000" />
       <workItem from="1649043385284" duration="2094000" />
       <workItem from="1649045754600" duration="5464000" />
-      <workItem from="1649052846593" duration="5240000" />
+      <workItem from="1649052846593" duration="5793000" />
     </task>
     <servers />
   </component>
